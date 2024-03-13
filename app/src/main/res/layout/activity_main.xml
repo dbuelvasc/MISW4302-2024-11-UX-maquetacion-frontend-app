@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/app_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="81dp"
+            android:fontFamily="@font/roboto_condensed_light"
+            android:gravity="top"
+            android:lineSpacingExtra="-40sp"
+            android:text="@string/app_sleep"
+            android:textAppearance="@style/app_sleep" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/usuarioOutlinedTextField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario"
+            android:layout_marginTop="500px"
+            android:layout_centerHorizontal="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordOutlinedTextField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginTop="700px"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonIngresar"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius="10dp"
+        app:backgroundTint="#084F92"
+        />
+
+    <TextView
+        android:id="@+id/olvido_su_c"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="526dp"
+        android:text="@string/olvido_su_c"
+        android:textAppearance="@style/olvido_su_c"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/eres_un_usu"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="563dp"
+        android:text="@string/eres_un_usu"
+        android:textAppearance="@style/eres_un_usu"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/cambiar_con"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="600dp"
+        android:text="@string/cambiar_con"
+        android:textAppearance="@style/cambiar_con"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+</RelativeLayout>

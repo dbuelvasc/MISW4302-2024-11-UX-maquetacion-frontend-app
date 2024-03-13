@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App Sleep</string>
+    <string name="app_sleep">App Sleep\n</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="botonIngresar">INGRESAR</string>
+    <string name="olvido_su_c">¿Olvido Su Clave?</string>
+    <string name="eres_un_usu">¿Eres Un Usuario Nuevo?</string>
+    <string name="cambiar_con">¿Cambiar Contraseña?</string>
+</resources>
