@@ -3,8 +3,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
-    android:layout_width="360dp"
-    android:layout_height="800dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#FFFFFF">
 
         <TextView
@@ -87,6 +87,7 @@
         android:textAppearance="@style/eres_un_usu"
         android:lineSpacingExtra="0sp"
         android:gravity="top"
+        android:onClick="abrirRegistrarActivity"
         />
     <TextView
         android:id="@+id/cambiar_con"

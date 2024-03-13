@@ -7,4 +7,7 @@
     <string name="olvido_su_c">¿Olvido Su Clave?</string>
     <string name="eres_un_usu">¿Eres Un Usuario Nuevo?</string>
     <string name="cambiar_con">¿Cambiar Contraseña?</string>
+    <string name="correoElectronico">Correo Electrónico</string>
+    <string name="password2">Confirmar Contraseña</string>
+    <string name="botonRegistrar">REGISTRAR</string>
 </resources>
