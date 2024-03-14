@@ -26,4 +26,9 @@
     <string name="label">ACTIVIDAD\nNOCTURNA</string>
     <string name="label1">RITMO\nCIRCADIANO</string>
     <string name="body">¿Tipo de reporte?</string>
+    <string name="mostrar_nota">Actividades Nocturnas</string>
+    <string name="mostrar_nota2">10:30 P.M\tRonquido\t5 Segundos\n\n11:05 P.M\tMovimiento\t2 Segundos\n\n02:25 A.M\t\tVoz\t2 Segundos</string>
+    <string name="mostrar_hora">Hora</string>
+    <string name="mostrar_act">Actividad</string>
+    <string name="mostrar_dur">Duración</string>
 </resources>
