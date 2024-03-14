@@ -18,4 +18,9 @@
     <string name="passwordinit2">Nueva contraseña</string>
     <string name="passwordcomfirm3">Confirme contraseña</string>
     <string name="botonConfirmar">CAMBIAR CONTRASEÑA</string>
+    <string name="mostrar_nota">Actividades Nocturnas</string>
+    <string name="mostrar_nota2">10:30 P.M\tRonquido\t5 Segundos\n\n11:05 P.M\tMovimiento\t2 Segundos\n\n02:25 A.M\t\tVoz\t2 Segundos</string>
+    <string name="mostrar_hora">Hora</string>
+    <string name="mostrar_act">Actividad</string>
+    <string name="mostrar_dur">Duración</string>
 </resources>

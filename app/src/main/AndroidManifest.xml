@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppSleep"
         tools:targetApi="31">
         <activity
+            android:name=".nightactivity"
+            android:exported="false" />
+        <activity
+            android:name=".sonido"
+            android:exported="false" />
+        <activity
             android:name=".changekey"
             android:exported="false" />
         <activity

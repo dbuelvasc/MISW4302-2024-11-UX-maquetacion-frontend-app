@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recoverkey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/app_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="81dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:gravity="top"
+        android:lineSpacingExtra="-40sp"
+        android:text="@string/app_sleep"
+        android:textAppearance="@style/app_sleep" />
+
+    <TextView
+        android:id="@+id/mostrar_nota"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/mostrar_nota"
+        android:textAppearance="@style/olvido_su_c"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+
+
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="274dp"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/line_2"
+        />
+
+    <TextView
+        android:id="@+id/mostrar_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="270dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/mostrar_hora"
+        android:textAppearance="@style/olvido_su_c"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mostrar_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="270dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/mostrar_act"
+        android:textAppearance="@style/olvido_su_c"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mostrar_dur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="270dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/mostrar_dur"
+        android:textAppearance="@style/olvido_su_c"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mostrar_nota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/mostrar_nota2"
+        android:textAppearance="@style/olvido_su_c" />
+
+</RelativeLayout>
