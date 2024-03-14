@@ -10,4 +10,12 @@
     <string name="correoElectronico">Correo Electrónico</string>
     <string name="password2">Confirmar Contraseña</string>
     <string name="botonRegistrar">REGISTRAR</string>
+    <string name="correoRecuperacion">Email de recuperación</string>
+    <string name="botonRecuperacion">ENVIAR RECUPERACIÓN</string>
+    <string name="recibira_un_c">RECIBIRÁ UN CORREO CON\nUNA CONTRASEÑA TEMPORAL</string>
+    <string name="correoElectronico2">Ingrese su email</string>
+    <string name="passwordinit">Contraseña</string>
+    <string name="passwordinit2">Nueva contraseña</string>
+    <string name="passwordcomfirm3">Confirme contraseña</string>
+    <string name="botonConfirmar">CAMBIAR CONTRASEÑA</string>
 </resources>

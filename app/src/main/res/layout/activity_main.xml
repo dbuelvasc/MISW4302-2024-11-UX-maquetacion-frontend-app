@@ -74,6 +74,7 @@
         android:textAppearance="@style/olvido_su_c"
         android:lineSpacingExtra="0sp"
         android:gravity="top"
+        android:onClick="olvidoSuclaveActivity"
         />
     <TextView
         android:id="@+id/eres_un_usu"
@@ -101,5 +102,6 @@
         android:textAppearance="@style/cambiar_con"
         android:lineSpacingExtra="0sp"
         android:gravity="top"
+        android:onClick="cambiarContrasenaActivity"
         />
 </RelativeLayout>

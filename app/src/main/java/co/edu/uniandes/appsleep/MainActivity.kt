@@ -24,4 +24,14 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, registrar::class.java)
         startActivity(intent)
     }
+
+    fun cambiarContrasenaActivity(view: View) {
+        val intent = Intent(this, changekey::class.java)
+        startActivity(intent)
+    }
+
+    fun olvidoSuclaveActivity(view: View) {
+        val intent = Intent(this, recoverkey::class.java)
+        startActivity(intent)
+    }
 }

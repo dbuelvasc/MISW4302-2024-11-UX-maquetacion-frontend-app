@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recoverkey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/app_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="81dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:gravity="top"
+        android:lineSpacingExtra="-40sp"
+        android:text="@string/app_sleep"
+        android:textAppearance="@style/app_sleep" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/correoRecuperacionOutlinedTextField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/correoRecuperacion"
+        android:layout_marginTop="500px"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonRecuperacion"
+        android:layout_marginTop="1200px"
+        android:layout_centerHorizontal="true"
+        app:cornerRadius="10dp"
+        app:backgroundTint="#084F92"
+        />
+
+    <TextView
+        android:id="@+id/recibira_un_c"
+        android:layout_width="232dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="526dp"
+        android:text="@string/recibira_un_c"
+        android:textAppearance="@style/olvido_su_c"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+
+</RelativeLayout>

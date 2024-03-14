@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppSleep"
         tools:targetApi="31">
         <activity
+            android:name=".changekey"
+            android:exported="false" />
+        <activity
+            android:name=".recoverkey"
+            android:exported="false" />
+        <activity
             android:name=".registrar"
             android:exported="false" />
         <activity
