@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textViewDialogTitle"
+        android:layout_width="248dp"
+        android:layout_height="20dp"
+        android:text="@string/body"
+        android:textAppearance="@style/body"
+        android:lineSpacingExtra="4sp"
+        android:translationY="-1.8sp"
+        android:gravity="top"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="60dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/activityLink"
+            android:layout_width="86dp"
+            android:layout_height="32dp"
+            android:text="@string/label"
+            android:fontFamily="@font/roboto_condensed_light"
+            android:textAppearance="@style/label"
+            android:lineSpacingExtra="0sp"
+            android:layout_weight="1"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:id="@+id/circadianRhythmLink"
+            android:layout_width="94dp"
+            android:layout_height="32dp"
+            android:text="@string/label1"
+            android:textAppearance="@style/label1"
+            android:lineSpacingExtra="0sp"
+            android:layout_weight="1"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="end"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

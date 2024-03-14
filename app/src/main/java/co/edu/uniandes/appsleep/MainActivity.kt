@@ -20,10 +20,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun abrirRegistrarActivity(view: View) {
-        val intent = Intent(this, registrar::class.java)
-        startActivity(intent)
-    }
 
     fun cambiarContrasenaActivity(view: View) {
         val intent = Intent(this, changekey::class.java)
@@ -32,6 +28,16 @@ class MainActivity : AppCompatActivity() {
 
     fun olvidoSuclaveActivity(view: View) {
         val intent = Intent(this, recoverkey::class.java)
+        startActivity(intent)
+    }
+
+    fun openListarAlarmasActivity(view: View) {
+        val intent = Intent(this, ListarAlarmasActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun abrirRegistrarActivity(view: View) {
+        val intent = Intent(this, registrar::class.java)
         startActivity(intent)
     }
 }

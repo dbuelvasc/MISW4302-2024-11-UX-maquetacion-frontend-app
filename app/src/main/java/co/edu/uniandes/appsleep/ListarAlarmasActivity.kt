@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class login : AppCompatActivity() {
+class ListarAlarmasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_listar_alarmas)
 
         val svgButton: ImageView = findViewById(R.id.imageViewReportes)
         svgButton.setOnClickListener {
@@ -57,5 +57,4 @@ class login : AppCompatActivity() {
 
         dialog.show()
     }
-
 }
